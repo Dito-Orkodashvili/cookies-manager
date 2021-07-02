@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <script src="manager.js"></script>
+        <style>
+            .wrapper {
+                width: 45rem;
+                height: 10rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            table td {
+                border: 1px solid grey;
+                padding: 0.5rem;
+            }
+
+            #generated-command {
+                font-size: 0.7rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <table>
+                <tr>
+                    <td>SESSION Token</td>
+                    <td >
+                        <span id="session-token"></span>
+                    </td>
+                    <td>
+                        <button id="session-copy-btn">COPY</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>XSRF Token</td>
+                    <td>
+                        <span id="xsrf-token"></span>
+                    </td>
+                    <td>
+                        <button id="xsrf-copy-btn">COPY</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <span id="generated-command"></span>
+                    </td>
+                    <td>
+                        <button id="command-copy-btn">COPY</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

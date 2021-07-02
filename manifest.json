@@ -1,0 +1,22 @@
+{
+    "name": "Discovery session manager",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": { "16": "discovery-logo-16.png", "48": "discovery-logo-48.png", "128": "discovery-logo-128.png" },
+    "permissions": [
+        "cookies",
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_title": "Discovery session manager",
+        "default_icon": "discovery-logo-16.png",
+        "default_popup": "manager.html"
+    }
+}
+
