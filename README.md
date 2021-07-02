@@ -1,4 +1,4 @@
-# discovery-session-manager
+# cookies-manager
 
 ## Instalation
 

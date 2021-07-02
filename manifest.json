@@ -1,8 +1,8 @@
 {
-    "name": "Discovery session manager",
+    "name": "Cookies manager",
     "version": "1.0",
     "manifest_version": 2,
-    "icons": { "16": "discovery-logo-16.png", "48": "discovery-logo-48.png", "128": "discovery-logo-128.png" },
+    "icons": { "16": "cookie-logo-16.png", "48": "cookie-logo-48.png", "128": "cookie-logo-128.png" },
     "permissions": [
         "cookies",
         "tabs",
@@ -14,8 +14,8 @@
         "persistent": false
     },
     "browser_action": {
-        "default_title": "Discovery session manager",
-        "default_icon": "discovery-logo-16.png",
+        "default_title": "Cession manager",
+        "default_icon": "cookie-logo-16.png",
         "default_popup": "manager.html"
     }
 }
