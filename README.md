@@ -1,6 +1,6 @@
 # cookies-manager
 
-## Instalation
+## Installation
 
 - Clone the source
 - Go to `Chrome settings -> More tools -> Extensions`
